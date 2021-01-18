@@ -1,27 +1,16 @@
 <nav class="navbar navbar-dark bg-dark navbar-expand-md">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" routerLink="" routerLinkActive="active">ItsMe</a>
     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-            </li>
-        </ul>
         <span style="flex: 1"></span>
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+                <a class="nav-link" routerLink="signup" routerLinkActive="active"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+                <a class="nav-link" routerLink="login" routerLinkActive="active"><span class="glyphicon glyphicon-log-in"></span> Login</a>
             </li>
         </ul>
     </div>
